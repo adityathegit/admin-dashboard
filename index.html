@@ -1,427 +1,262 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin-dashboard</title>
-    <link rel="stylesheet" href="style.css"/>
-    
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin-dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <body>
-    <div class="grid-container">
-      <nav class="sidebar">
-        <div class="title">
-          <ul>
-            <li>
-              <img
-                class="logo-icon"
-                src="assets/icons/view-dashboard.svg"
-                alt="dashboard"
-              />
-              <h1>Dashboard</h1>
-            </li>
-          </ul>
-        </div>
+<body>
+  <div class="grid-container">
+    <nav class="sidebar">
+      <div class="title">
+        <ul>
+          <li>
+            <img class="logo-icon" src="assets/icons/view-dashboard.svg" alt="dashboard" />
+            <h1>Dashboard</h1>
+          </li>
+        </ul>
+      </div>
 
-        <div class="navigation">
-          <ul>
-            <li>
-              <img class="nav-icon" src="assets/icons/home.svg" alt="home" />
-              <span>Home</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/profile.svg"
-                alt="profile"
-              />
-              <span>Profile</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/message.svg"
-                alt="messages"
-              />
-              <span>Messages</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/history.svg"
-                alt="history"
-              />
-              <span>History</span>
-            </li>
-            <li>
-              <img class="nav-icon" src="assets/icons/tasks.svg" alt="tasks" />
-              <span>Tasks</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/community.svg"
-                alt="communities"
-              />
-              <span>Communities</span>
-            </li>
-          </ul>
-        </div>
+      <div class="navigation">
+        <ul>
+          <li>
+            <img class="nav-icon" src="assets/icons/home.svg" alt="home" />
+            <span>Home</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/profile.svg" alt="profile" />
+            <span>Profile</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/message.svg" alt="messages" />
+            <span>Messages</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/history.svg" alt="history" />
+            <span>History</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/tasks.svg" alt="tasks" />
+            <span>Tasks</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/community.svg" alt="communities" />
+            <span>Communities</span>
+          </li>
+        </ul>
+      </div>
 
-        <div class="navigation">
-          <ul>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/settings.svg"
-                alt="settings"
-              />
-              <span>Settings</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/support.svg"
-                alt="support"
-              />
-              <span>Support</span>
-            </li>
-            <li>
-              <img
-                class="nav-icon"
-                src="assets/icons/privacy.svg"
-                alt="privacy"
-              />
-              <span>Privacy</span>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="navigation">
+        <ul>
+          <li>
+            <img class="nav-icon" src="assets/icons/settings.svg" alt="settings" />
+            <span>Settings</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/support.svg" alt="support" />
+            <span>Support</span>
+          </li>
+          <li>
+            <img class="nav-icon" src="assets/icons/privacy.svg" alt="privacy" />
+            <span>Privacy</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-      <header class="header">
-        <div class="child-header">
-          <div class="box-1">
-            <div class="search">
-              <img src="assets/icons/search.svg" alt="search" class="icon" />
-              <input
-                type="search"
-                id="dashboard-search"
-                name="search"
-                placeholder="Search"
-              />
+    <header class="header">
+      <div class="child-header">
+        <div class="box-1">
+          <div class="search">
+            <img src="assets/icons/search.svg" alt="search" class="icon" />
+            <input type="search" id="dashboard-search" name="search" placeholder="Search" />
+          </div>
+
+          <div class="notification">
+            <img src="assets/icons/notification.svg" alt="notification" class="icon" />
+            <div class="profile-icon">
+              <img src="assets/profile/profile-picture-5.png" alt="profile-picture" />
             </div>
+            <p>Ramlal Tiwari</p>
+          </div>
+        </div>
 
-            <div class="notification">
-              <img
-                src="assets/icons/notification.svg"
-                alt="notification"
-                class="icon"
-              />
-              <div class="profile-icon">
-                <img
-                  src="assets/profile/profile-picture-5.png"
-                  alt="profile-picture"
-                />
-              </div>
-              <p>Ramlal Tiwari</p>
+        <div class="box-2">
+          <div class="profile">
+            <div class="profile-image">
+              <img src="assets/profile/profile-picture-5.png" alt="profile-picture" />
+            </div>
+            <div class="profile-text">
+              <span class="hi">Hi there,</span>
+              <span class="username">Ramlal Tiwari (@ramlal)</span>
             </div>
           </div>
 
-          <div class="box-2">
-            <div class="profile">
-              <div class="profile-image">
-                <img
-                  src="assets/profile/profile-picture-5.png"
-                  alt="profile-picture"
-                />
-              </div>
-              <div class="profile-text">
-                <span class="hi">Hi there,</span>
-                <span class="username">Ramlal Tiwari (@ramlal)</span>
-              </div>
-            </div>
+          <div class="profile-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+    </header>
 
-            <div class="profile-buttons">
-              <button>New</button>
-              <button>Upload</button>
-              <button>Share</button>
+    <main class="main-content">
+      <div class="child-main-content">
+        <h2 class="project-header">Your Projects</h2>
+        <h2 class="sidebar-header">Announcement</h2>
+
+        <div class="projects">
+          <div class="project-card">
+            <div>
+              <span class="title">Super Cool Project</span>
+              <span class="content">But it is time for the lake to be a target. Suspended care was a lot of pain, it
+                does not need the ease of the cat.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <span class="title">Less Cool Project</span>
+              <span class="content">No seasoning itself as the vehicle for the chosen bed. Everyone is troubled by the
+                grief of the author, the seasoning is wise and, the ease of pain. It is a half-pure land, a dignity that
+                is wise in, a variety of low-lying lakes.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <span class="title">Impossible App</span>
+              <span class="content">In this place dwelt the street of the street. Let us live the story of the steering
+                wheel of the bow, to please the arrows of the targeted id.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <span class="title">Easy Peasy App</span>
+              <span class="content">Furthermore, the running of the love is a source of performance. The main courtyard
+                deserves to receive the collection of the area. Care for dignity unless in the convenience of a twist,
+                and the drinking is a great weight.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <span class="title">Ad Blocker</span>
+              <span class="content">Everyone needs the steering wheel of the player. For the sake of the harvest, the
+                running of life is a fear of fear, the quiver of the layout of the cat. Some but bad love.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <span class="title">Money Maker</span>
+              <span class="content">Present conversation, a free choice of the valley of the element, now before the
+                jaws of the wise, and the layout of the twist is pure sit amet ex. The skin is soft nor a layer of
+                change.</span>
+            </div>
+            <div class="btn">
+              <img src="assets/icons/star-plus.svg" alt="star-plus" class="icon" />
+              <img src="assets/icons/eye-plus.svg" alt="eye-plus" class="icon" />
+              <img src="assets/icons/source-branch.svg" alt="source-branch" class="icon" />
             </div>
           </div>
         </div>
-      </header>
 
-      <main class="main-content">
-        <div class="child-main-content">
-          <div class="project-div">
-            <h2>Your Projects</h2>
-            <div class="projects">
-              <div class="project-card">
-                <div>
-                  <span class="title">Super Cool Project</span>
-                  <span class="content"
-                    >But it is time for the lake to be a target. Suspended care
-                    was a lot of pain, it does not need the ease of the cat.
-                  </span>
-                </div>
+        <div class="sidebar-content">
+          <div class="announcement-card">
+            <div class="announcement-text">
+              <span class="title">Site Maintenance</span>
+              <span class="content">The main courtyard seasoning of the earth of the lake, in the collection of the
+                elite is greatest. Until the layout of companions gathers...</span>
+              <hr />
+            </div>
 
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
+            <div class="announcement-text">
+              <span class="title">Community Share Day</span>
+              <span class="content">For either the bed of the layout, the steering wheel is none of the good, to
+                decorate the free. Some story collection of the gate...</span>
+              <hr />
+            </div>
 
-              <div class="project-card">
-                <div>
-                  <span class="title">Less Cool Project</span>
-                  <span class="content"
-                    >No seasoning itself as the vehicle for the chosen bed.
-                    Everyone is troubled by the grief of the author, the
-                    seasoning is wise and, the ease of pain. It is a half-pure
-                    land, a dignity that is wise in, a variety of low-lying
-                    lakes.</span
-                  >
-                </div>
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
-              <div class="project-card">
-                <div>
-                  <span class="title">Impossible App</span>
-                  <span class="content"
-                    >In this place dwelt the street of the street. Let us live
-                    the story of the steering wheel of the bow, to please the
-                    arrows of the targeted id.</span
-                  >
-                </div>
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
-              <div class="project-card">
-                <div>
-                  <span class="title">Easy Peasy App</span>
-                  <span class="content"
-                    >Furthermore, the running of the love is a source of
-                    performance. The main courtyard deserves to receive the
-                    collection of the area. Care for dignity unless in the
-                    convenience of a twist, and the drinking is a great
-                    weight.</span
-                  >
-                </div>
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
-              <div class="project-card">
-                <div>
-                  <span class="title">Ad Blocker</span>
-                  <span class="content"
-                    >Everyone needs the steering wheel of the player. For the
-                    sake of the harvest, the running of life is a fear of fear,
-                    the quiver of the layout of the cat. Some but bad
-                    love.</span
-                  >
-                </div>
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
-              <div class="project-card">
-                <div>
-                  <span class="title">Money Maker</span>
-                  <span class="content"
-                    >Present conversation, a free choice of the valley of the
-                    element, now before the jaws of the wise, and the layout of
-                    the twist is pure sit amet ex. The skin is soft nor a layer
-                    of change.</span
-                  >
-                </div>
-                <div class="btn">
-                  <img
-                    src="assets/icons/star-plus.svg"
-                    alt="star-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/eye-plus.svg"
-                    alt="eye-plus"
-                    class="icon"
-                  />
-                  <img
-                    src="assets/icons/source-branch.svg"
-                    alt="source-branch"
-                    class="icon"
-                  />
-                </div>
-              </div>
+            <div class="announcement-text">
+              <span class="title">Updated Privacy Policy</span>
+              <span class="content">The phase is performing unless it needs the elite seasoning, it needs the seasoning
+                before the author. Tomorrow the border of the arrows is a layer in the matrix...</span>
             </div>
           </div>
 
-          <div class="announcement-trending">
-            <div class="announcement">
-              <h2>Announcement</h2>
-              <div class="announcement-card">
-                <div class="announcement-text">
-                  <span class="title">Site Maintenance</span>
-                  <span class="content"
-                    >The main courtyard seasoning of the earth of the lake, in
-                    the collection of the elite is greatest. Until the layout of
-                    companions gathers...</span
-                  >
-                  <hr />
-                </div>
+          <h2 class="trending-header">Trending</h2>
 
-                <div class="announcement-text">
-                  <span class="title">Community Share Day</span>
-                  <span class="content"
-                    >For either the bed of the layout, the steering wheel is
-                    none of the good, to decorate the free. Some story
-                    collection of the gate...</span
-                  >
-                  <hr />
-                </div>
+          <div class="trending-card">
 
-                <div class="announcement-text">
-                  <span class="title">Updated Privacy Policy</span>
-                  <span class="content"
-                    >The phase is performing unless it needs the elite
-                    seasoning, it needs the seasoning before the author.
-                    Tomorrow the border of the arrows is a layer in the
-                    matrix...</span
-                  >
-                </div>
+            <div class="trending-profile">
+              <div class="profile-icon"><img src="assets/profile/profile-picture-1.jpeg" alt="avatar" /></div>
+              <div class="text">
+                <span class="title">@tegan</span>
+                <span class="trending-text">World Peace Builder</span>
               </div>
             </div>
 
-            <div class="trending">
-              <h2>Trending</h2>
-              <div class="trending-card">
-                <div class="trending-profile">
-                  <div class="profile-icon">
-                    <img
-                      src="assets/profile/profile-picture-1.jpeg"
-                      alt="profile-picture-1"
-                    />
-                  </div>
-                  <div class="text">
-                    <span class="trending-user">@diya</span>
-                    <span class="trending-text">World Peace Builder</span>
-                  </div>
-                </div>
+            <div class="trending-profile">
+              <div class="profile-icon"><img src="assets/profile/profile-picture-2.jpeg" alt="avatar" /></div>
+              <div class="text">
+                <span class="title">@morgan</span>
+                <span class="trending-text">Super Cool Project</span>
+              </div>
+            </div>
 
-                <div class="trending-profile">
-                  <div class="profile-icon">
-                    <img
-                      src="assets/profile/profile-picture-2.jpeg"
-                      alt="profile-picture-2"
-                    />
-                  </div>
-                  <div class="text">
-                    <span class="trending-user">@myra</span>
-                    <span class="trending-text">Super Cool Project</span>
-                  </div>
-                </div>
-                <div class="trending-profile">
-                  <div class="profile-icon">
-                    <img
-                      src="assets/profile/profile-picture-3.jpeg"
-                      alt="profile-picture-3"
-                    />
-                  </div>
-                  <div class="text">
-                    <span class="trending-user">@kavya</span>
-                    <span class="trending-text">Life Changing App</span>
-                  </div>
-                </div>
-                <div class="trending-profile">
-                  <div class="profile-icon">
-                    <img
-                      src="assets/profile/profile-picture-4.jpeg"
-                      alt="profile-picture-4"
-                    />
-                  </div>
-                  <div class="text">
-                    <span class="trending-user">@ahana</span>
-                    <span class="trending-text">No Trafic Maker</span>
-                  </div>
-                </div>
+            <div class="trending-profile">
+              <div class="profile-icon"><img src="assets/profile/profile-picture-3.jpeg" alt="avatar" /></div>
+              <div class="text">
+                <span class="title">@kendall</span>
+                <span class="trending-text">Life Changing App</span>
+              </div>
+            </div>
+
+            <div class="trending-profile">
+              <div class="profile-icon"><img src="assets/profile/profile-picture-4.jpeg" alt="avatar" /></div>
+              <div class="text">
+                <span class="title">@alex</span>
+                <span class="trending-text">No Traffic Maker</span>
               </div>
             </div>
           </div>
         </div>
-      </main>
-    </div>
-  </body>
+      </div>
+  </div>
+  </main>
+  
+  </div>
+</body>
+
 </html>

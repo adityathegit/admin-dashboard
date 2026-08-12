@@ -184,99 +184,120 @@ li {
 }
 
 .main-content {
+  display: grid;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  padding: 0 16px;
+  padding: 24px;
   background-color: #e2e8f0;
-  gap: 16px;
 }
 
 .child-main-content {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto 1fr;
-    gap: 16px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 16px 24px;
+  align-items: start;
+}
+
+.project-header {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: 0 0 8px 0;
+}
+
+.sidebar-header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: 0 0 8px 0;
 }
 
 .projects {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 16px;
+  gap: 24px;
+}
+
+.sidebar-content {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card {
-  padding: 32px 16px;
-  box-shadow: 2px 2px 3px 0 #cec6c6;
+  padding: 32px 24px;
+  box-shadow: 2px 2px 5px 0 #cec6c6;
   border-left: 8px solid #f0b429;
   background-color: white;
   border-radius: 8px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .project-card .title {
   font-weight: bold;
   display: block;
+  margin-bottom: 8px;
 }
 
 .project-card .content {
+  display: block;
   color: #636363;
   letter-spacing: 0.5px;
+  line-height: 1.4;
 }
 
 .project-card .btn {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 16px;
-}
-
-.announcement-trending {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.announcement {
-    grid-row: 1 / 2;
 }
 
 .announcement-card {
   background-color: white;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  gap: 10px;
+  gap: 16px;
 }
 
 .announcement-card .title {
   display: block;
   font-size: small;
   font-weight: bold;
+  margin-bottom: 4px;
 }
 
 .announcement-card .content {
+  display: block;
   font-size: small;
   color: #636363;
+  line-height: 1.3;
 }
 
 hr {
-  margin-top: 16px;
+  border: none;
+  height: 1px;
   background-color: #cec6c6;
+  margin: 16px 0 0 0;
 }
 
-.trending {
-    grid-row: 2 / 3;
+.trending-header {
+  margin: 24px 0 16px 0;
 }
+
 .trending-card {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   background-color: white;
   border-radius: 8px;
-  padding: 16px;
+  padding: 24px;
 }
 
 .trending-profile {
@@ -290,6 +311,12 @@ hr {
   flex-direction: column;
 }
 
+.trending-profile .title {
+  font-weight: bold;
+  font-size: small;
+}
+
 .trending-text {
   color: #636363;
+  font-size: small;
 }
