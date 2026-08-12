@@ -38,12 +38,10 @@ body {
     font-size: 15px;
 }
 
-.icon {
+.nav-icon {
     width: 20px;
     filter: invert(100%) sepia(100%) saturate(0%);
 }
-
-
 
 ul {
     display: grid;
@@ -59,11 +57,131 @@ li {
     gap: 16px;
 }
 
-
 .header {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
+    padding: 0 2em;
+    box-shadow: 0 1px 5px -2px;
 }
+
+.child-header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding-top: 16px;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    min-width: 80%;
+    padding: 8px;
+    border-radius: 16px;
+    border: none;
+    background-color: #e2e8f0;
+}
+
+.notification {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    align-items: center;
+}
+
+.notification p {
+    font-weight: bold;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 16px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image img {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-text .hi {
+    font-size: small;
+    font-weight: bold;
+}
+
+.profile-text .username {
+    font-size: large;
+    font-weight: bold;
+}
+
+.profile-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+}
+
+.profile-buttons button {
+    padding: 8px 32px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    background-color: #1992d4;
+    cursor: pointer;
+}
+
 .main-content {
     grid-column: 2 / 4;
 }
+
+
 
